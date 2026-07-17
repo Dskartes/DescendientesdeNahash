@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ site.language | default: 'es' }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/library.css' | relative_url }}">
+</head>
+<body>
+{% include nav.html %}
+<div class="wrap">
+
+  <header class="page-header hero">
+    <div class="eyebrow">✦ Génesis · genealogía y estudio</div>
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.description | default: site.description }}</p>
+    <div class="hero-actions">
+      <a class="hero-btn primary" href="{{ '/libros.html' | relative_url }}">Ver libros</a>
+      <a class="hero-btn ghost" href="{{ '/articulos.html' | relative_url }}">Ver artículos</a>
+    </div>
+  </header>
+
+  <div class="tools-grid">
+    <a class="tool-card" href="{{ '/libros.html' | relative_url }}">
+      <div class="tool-mark">📚</div>
+      <h3 class="tool-name">Libros</h3>
+      <p class="tool-desc">Los libros completos del proyecto: En el principio del Génesis, Séptimo día: Holoceno, y Diluvios.</p>
+      <div class="tool-cta">Ir a libros →</div>
+    </a>
+    <a class="tool-card" href="{{ '/articulos.html' | relative_url }}">
+      <div class="tool-mark">📝</div>
+      <h3 class="tool-name">Artículos</h3>
+      <p class="tool-desc">Textos cortos basados en capítulos de los libros y respuestas publicadas en Quora.</p>
+      <div class="tool-cta">Ir a artículos →</div>
+    </a>
+    <a class="tool-card" href="{{ '/mapas.html' | relative_url }}">
+      <div class="tool-mark">🗺️</div>
+      <h3 class="tool-name">Mapas</h3>
+      <p class="tool-desc">Mapas y esquemas geográficos y genealógicos relacionados con el análisis del Génesis.</p>
+      <div class="tool-cta">Ir a mapas →</div>
+    </a>
+    <a class="tool-card" href="{{ '/recursos.html' | relative_url }}">
+      <div class="tool-mark">📜</div>
+      <h3 class="tool-name">Recursos</h3>
+      <p class="tool-desc">Materiales de apoyo, fuentes y documentos adicionales para el estudio.</p>
+      <div class="tool-cta">Ir a recursos →</div>
+    </a>
+  </div>
+
+  <div class="about-block">
+    <div>
+      <h2>Sobre este proyecto</h2>
+      <p>Descendientes de Nahash es una biblioteca digital dedicada al análisis del libro del Génesis, reuniendo libros, artículos, mapas y recursos de estudio en un solo lugar.</p>
+    </div>
+    <div>
+      <h2>Cómo está organizado</h2>
+      <p>Los <strong>libros</strong> son los textos completos del proyecto. Los <strong>artículos</strong> se publican poco a poco, basados en capítulos de los libros y en respuestas ya escritas en Quora. Los <strong>mapas</strong> y <strong>recursos</strong> complementan el estudio.</p>
+    </div>
+  </div>
+
+  {{ content }}
+
+</div>
+{% include footer.html %}
+</body>
+</html>

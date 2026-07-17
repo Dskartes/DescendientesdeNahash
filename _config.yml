@@ -1,0 +1,19 @@
+title: Descendientes de Nahash
+description: "Investigaciones sobre Génesis, Mesopotamia y pueblos antiguos."
+author: Dskartes
+language: es
+baseurl: "/DescendientesdeNahash"
+url: "https://dskartes.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md

@@ -1,0 +1,12 @@
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}"><span class="mark">✦</span>Descendientes de Nahash</a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Inicio</a>
+      <a href="{{ '/libros.html' | relative_url }}"{% if page.url contains 'libros' %} class="active"{% endif %}>Libros</a>
+      <a href="{{ '/articulos.html' | relative_url }}"{% if page.url contains 'articulos' %} class="active"{% endif %}>Artículos</a>
+      <a href="{{ '/mapas.html' | relative_url }}"{% if page.url contains 'mapas' %} class="active"{% endif %}>Mapas</a>
+      <a href="{{ '/recursos.html' | relative_url }}"{% if page.url contains 'recursos' %} class="active"{% endif %}>Recursos</a>
+    </div>
+  </div>
+</nav>
