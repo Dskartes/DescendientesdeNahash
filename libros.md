@@ -6,16 +6,16 @@ subtitle: "Los libros completos del proyecto. Se irán agregando conforme estén
 
 <div class="card-grid">
 
-  <div class="card">
+<div class="card">
     <div class="card-top">
       <div class="card-mark">✦</div>
-      <div class="card-tag soon">Próximamente</div>
+      <div class="card-tag">PDF</div>
     </div>
     <h3 class="card-title">En el principio del Génesis</h3>
     <p class="card-desc">Primer libro del proyecto, punto de partida del análisis del Génesis.</p>
     <div class="card-meta">
       <span class="card-info">PDF</span>
-      <span class="card-btn disabled">Descargar</span>
+      <a class="card-btn" href="{{ '/libros/En el principio del Génesis.pdf' | relative_url }}" download>Descargar</a>
     </div>
   </div>
 
