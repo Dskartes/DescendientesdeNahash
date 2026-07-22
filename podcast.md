@@ -22,7 +22,22 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
       <a class="card-btn" href="{{ '/podcast/Génesis_entre_el_Big_Bang_y_Babilonia.mp3' | relative_url }}" download>Descargar</a>
     </div>
   </div>
-
+<div class="card">
+    <div class="card-top">
+      <div class="card-mark">✦</div>
+      <div class="card-tag">Podcast</div>
+    </div>
+    <h3 class="card-title">La ciencia del Génesis en Eones</h3>
+    <p class="card-desc">Resumen del libro En el principio del Génesis.</p>
+    <audio class="card-audio" controls preload="none">
+      <source src="{{ '/podcast/La_ciencia_del_Génesis_en_Eones.mp3' | relative_url }}" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+    <div class="card-meta">
+      <span class="card-info">Basado en: Eones</span>
+      <a class="card-btn" href="{{ '/podcast/La_ciencia_del_Génesis_en_Eones.mp3' | relative_url }}" download>Descargar</a>
+    </div>
+  </div>
 </div>
 
 <!--
