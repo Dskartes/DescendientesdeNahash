@@ -38,6 +38,22 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
       <a class="card-btn" href="{{ '/podcast/La_ciencia_del_Génesis_en_Eones.mp3' | relative_url }}" download>Descargar</a>
     </div>
   </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-mark">✦</div>
+      <div class="card-tag">Podcast</div>
+    </div>
+    <h3 class="card-title">Génesis como mapa del Holoceno</h3>
+    <p class="card-desc">Resumen del libro Séptimo día: Holoceno.</p>
+    <audio class="card-audio" controls preload="none">
+      <source src="{{ '/podcast/El_Génesis_como_mapa_del_Holoceno.mp3' | relative_url }}" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+    <div class="card-meta">
+      <span class="card-info">Basado en: Séptimo día: Holoceno</span>
+      <a class="card-btn" href="{{ '/podcast/El_Génesis_como_mapa_del_Holoceno.mp3' | relative_url }}" download>Descargar</a>
+    </div>
+  </div>
 </div>
 
 <!--
