@@ -176,3 +176,33 @@ a{ color:var(--gold-dark); }
   .wrap{ padding:0 18px 70px; }
   header.page-header{ padding-top:30px; }
 }
+.hero{
+    min-height:460px;
+
+    background-image:url("../../images/banner-nahash.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    position:relative;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+}
+
+.hero>*{
+    position:relative;
+    z-index:1;
+}
