@@ -22,13 +22,13 @@ subtitle: "Los libros completos del proyecto. Se irán agregando conforme estén
   <div class="card">
     <div class="card-top">
       <div class="card-mark">✦</div>
-      <div class="card-tag soon">Próximamente</div>
+      <div class="card-tag">PDF</div>
     </div>
     <h3 class="card-title">Séptimo día: Holoceno</h3>
     <p class="card-desc">Segundo libro del proyecto.</p>
     <div class="card-meta">
       <span class="card-info">PDF</span>
-      <span class="card-btn disabled">Descargar</span>
+      <a class="card-btn" href="{{ '/libros/El_septimo_dia_Holoceno.pdf' | relative_url }}" download>Descargar</a>
     </div>
   </div>
 
