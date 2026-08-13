@@ -56,6 +56,18 @@ subtitle: "Los libros completos del proyecto. Se irán agregando conforme estén
       <a class="card-btn" href="{{ '/libros/Eones.pdf' | relative_url }}" download>Descargar</a>
     </div>
   </div>
+  <div class="card">
+    <div class="card-top">
+      <div class="card-mark">✦</div>
+      <div class="card-tag">PDF</div>
+    </div>
+    <h3 class="card-title">Hombre hecho del barro</h3>
+    <p class="card-desc">El mito del ser humano creado a partir del barro a través de un análisis comparado de diversas civilizaciones antiguas.</p>
+    <div class="card-meta">
+      <span class="card-info">PDF</span>
+      <a class="card-btn" href="{{ '/libros/Hombrehechodelbarro.pdf' | relative_url }}" download>Descargar</a>
+    </div>
+  </div>
 </div>
 
 <p class="page-note" style="margin-top:28px;">Estos tres libros existen en Word. En cuanto se conviertan a PDF y se suban a la carpeta <code>libros/</code> del repositorio, las tarjetas de arriba se actualizan con el link de descarga real.</p>
