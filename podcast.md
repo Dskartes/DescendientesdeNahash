@@ -54,6 +54,22 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
       <a class="card-btn" href="{{ '/podcast/El_Génesis_como_mapa_del_Holoceno.mp3' | relative_url }}" download>Descargar</a>
     </div>
   </div>
+   <div class="card">
+    <div class="card-top">
+      <div class="card-mark">✦</div>
+      <div class="card-tag">Podcast</div>
+    </div>
+    <h3 class="card-title">Hombre de barro ¿tecnología o propaganda política?</h3>
+    <p class="card-desc">Resumen del libro Hombre hecho del barro.</p>
+    <audio class="card-audio" controls preload="none">
+      <source src="{{ '/podcast/Hombre_de_barro_¿tecnología_o_propaganda_política_.mp3' | relative_url }}" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+    <div class="card-meta">
+      <span class="card-info">Basado en: En el principio del Génesis</span>
+      <a class="card-btn" href="{{ '/podcast/Hombre_de_barro_¿tecnología_o_propaganda_política_.mp3' | relative_url }}" download>Descargar</a>
+    </div>
+  </div>
 </div>
 
 <!--
