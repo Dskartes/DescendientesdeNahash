@@ -28,7 +28,7 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
       <div class="card-tag">Podcast</div>
     </div>
     <h3 class="card-title">La ciencia del Génesis en Eones</h3>
-    <p class="card-desc">Resumen del libro En el principio del Génesis.</p>
+    <p class="card-desc">Resumen del libro Eones.</p>
     <audio class="card-audio" controls preload="none">
       <source src="{{ '/podcast/La_ciencia_del_Génesis_en_Eones.mp3' | relative_url }}" type="audio/mpeg">
       Tu navegador no soporta audio HTML5.
