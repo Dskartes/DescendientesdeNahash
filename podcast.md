@@ -23,8 +23,8 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
     </div>
   </div>
 <div class="card">
-    <div class="card-top">
-      <div class="card-mark">✦</div>
+  <div class="card-top">
+    <div class="card-mark">✦</div>
       <div class="card-tag">Podcast</div>
     </div>
     <h3 class="card-title">La ciencia del Génesis en Eones</h3>
@@ -54,7 +54,7 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
       <a class="card-btn" href="{{ '/podcast/El_Génesis_como_mapa_del_Holoceno.mp3' | relative_url }}" download>Descargar</a>
     </div>
   </div>
-   <div class="card">
+  <div class="card">
     <div class="card-top">
       <div class="card-mark">✦</div>
       <div class="card-tag">Podcast</div>
@@ -70,24 +70,23 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
       <a class="card-btn" href="{{ '/podcast/Hombre_de_barro_¿tecnología_o_propaganda_política_.mp3' | relative_url }}" download>Descargar</a>
     </div>
   </div>
-</div>
- <div class="card">
-   <div class="card-top">
-     <div class="card-mark">✦</div>
-     <div class="card-tag">Podcast</div>
-   </div>
-   <h3 class="card-title">Diluvios</h3>
-   <p class="card-desc">Resumen del libro Diluvios.</p>
-   <audio class="card-audio" controls preload="none">
-     <source src="{{ '/podcast/diluvios.mp3' | relative_url }}" type="audio/mpeg">
-     Tu navegador no soporta audio HTML5.
-   </audio>
-   <div class="card-meta">
-     <span class="card-info">Basado en: Diluvios</span>
-     <a class="card-btn" href="{{ '/podcast/diluvios.mp3' | relative_url }}" download>Descargar</a>
-   </div>
- </div>
-  
+  <div class="card">
+    <div class="card-top">
+      <div class="card-mark">✦</div>
+      <div class="card-tag">Podcast</div>
+    </div>
+    <h3 class="card-title">Diluvios</h3>
+    <p class="card-desc">Resumen del libro Diluvios.</p>
+    <audio class="card-audio" controls preload="none">
+      <source src="{{ '/podcast/diluvios.mp3' | relative_url }}" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+    <div class="card-meta">
+      <span class="card-info">Basado en: Diluvios</span>
+      <a class="card-btn" href="{{ '/podcast/diluvios.mp3' | relative_url }}" download>Descargar</a>
+    </div>
+  </div>
+</div>  
 <!--
   Para el siguiente episodio, copia el bloque <div class="card"> de arriba (entre
   <div class="card-grid"> y </div>), pégalo justo antes del </div> de cierre del grid,
