@@ -32,16 +32,16 @@ subtitle: "Los libros completos del proyecto. Se irán agregando conforme estén
     </div>
   </div>
 
-  <div class="card">
+   <div class="card">
     <div class="card-top">
       <div class="card-mark">✦</div>
-      <div class="card-tag soon">Próximamente</div>
+      <div class="card-tag">PDF</div>
     </div>
     <h3 class="card-title">Diluvios</h3>
-    <p class="card-desc">Tercer libro del proyecto.</p>
+    <p class="card-desc">Destrucciones e invasiones en la memoria de pueblos antiguos.</p>
     <div class="card-meta">
       <span class="card-info">PDF</span>
-      <span class="card-btn disabled">Descargar</span>
+      <a class="card-btn" href="{{ '/libros/Diluvios.pdf' | relative_url }}" download>Descargar</a>
     </div>
   </div>
 <div class="card">
