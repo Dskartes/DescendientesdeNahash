@@ -71,7 +71,7 @@ subtitle: "Resúmenes en audio de los libros y publicaciones del proyecto, gener
     </div>
   </div>
 </div>
-<div class="card">
+ <div class="card">
     <div class="card-top">
       <div class="card-mark">✦</div>
       <div class="card-tag">Podcast</div>
